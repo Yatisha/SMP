@@ -1,0 +1,7 @@
+A simple multiplexing protocol(SMP)
+Implemented using packet sockets in linux to send/recieve ethernet frames.
+The SMP API includes:
+socket_smp() ---> creates a socket end point based on Service ID and role
+sendto_smp() ---> send an SMP packet
+recvfrom_smp() ---> receive an SMP packet
+close_smp() ---> close the socket and terminate the association
